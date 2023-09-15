@@ -23,13 +23,22 @@ body {
   /* Style the header */
   .dec {
     color: #333;
-    font-size: 24px;
+    font-size: 35px;
     margin-bottom: 10px;
   }
   
-  /* Style the paragraph */
+  #calculate{
+    margin: 20px;
+    font-size: 30px;
+  }
+  #display{
+    border: #fff solid;
+    height: 80px;
+    text-align: center;
+  }
   p {
     font-size: 16px;
+    
   }
   
   /* Style the form group */
