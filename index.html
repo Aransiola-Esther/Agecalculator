@@ -13,9 +13,9 @@
                 <div class="form-group cal ">
                     <h1>Age Declaration Calculator </h1>
                     <input type="number" id="age" placeholder="please enter age" required>
-                    
-                     <p id="display"></p>                
+                                        
                     <button type="button" id="calculate">GetWeeksRemaining</button>
+                    <p id="display"></p>
                 </div>
             </div>
         </div>
@@ -30,9 +30,11 @@
             let months = parseInt(days / 30.4);
             let weeks = parseInt((days - (months * 30.4)) / 7);
             let _days = parseInt( days -(months * 30.4) - (weeks * 7));
-            document.getElementById("display").innerHTML = "You remaining period to 90 years of age is " + _days + "days" + wereks + "weeks and" + months + "months";
-            if(number < 0){
+            
+            if(days < 0){
                 alert("You have exceeded the age range");
+            } else {
+                document.getElementById("display").innerHTML = "You remaining period to 90 years of age is " + _days + " days" + weeks + " weeks and" + months + " months";
             }
         } 
         

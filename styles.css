@@ -1,3 +1,6 @@
 *{
     box-sizing: border-box;
 }
+.cal{
+    border: blue solid;
+}
