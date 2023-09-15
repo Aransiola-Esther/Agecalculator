@@ -3,7 +3,7 @@
 /* Apply styles to the whole page */
 body {
     font-family: Arial, sans-serif;
-    background-color: #477ef3;
+    background-color: #031d552a;
     margin: 0;
     padding: 0;
   }
@@ -29,8 +29,11 @@ body {
   
   #calculate{
     margin: 20px;
-    font-size: 30px;
+    font-size: 15px;
+    
   }
+    
+ 
   #display{
     border: #fff solid;
     height: 80px;
@@ -41,7 +44,7 @@ body {
     
   }
   
-  /* Style the form group */
+  
   .form-group {
     margin-top: 20px;
   }
@@ -54,7 +57,7 @@ body {
     border-radius: 5px;
   }
   
-  /* Style the button */
+
   button {
     padding: 10px 20px;
     background-color: #2600ff;
@@ -63,13 +66,17 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
+  .top{
+    margin-top: 70px;
+
+  }
   
-  /* Style the button on hover */
+ 
   button:hover {
     background-color: #0056b3;
   }
   
-  /* Style the result paragraph */
+  
   #display {
     margin-top: 10px;
     font-size: 18px;

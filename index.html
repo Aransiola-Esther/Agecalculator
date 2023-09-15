@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Age Declaration</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,23 +12,25 @@
         <div class="row">
            <div class="col center">
              <h1 class="dec">Age Declaration Calculator </h1>
-             <p>Do you want to know ow many days, weeks, months for to clock 90 years with your current age?</p>
+             <p>Do you want to know how many days, weeks, months for to clock 90 years with your current age?</p>
              <h3>No worry! This app is for you, let Go! just input your current age in the space below</h3>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="form-group cal ">
-                        <input type="number" id="age" placeholder="please enter age" required>
-
-                        <p>click on GetWeeksRemaining button to check result</p>
-                        <button type="button" id="calculate">GetWeeksRemaining</button>
-                        
-                        <p id="display"></p>
-                    </div>
-                </div>
-
-            </div>
+            </div>            
         </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group cal ">
+                    <input type="number" id="age" placeholder="please enter age" required> 
+                    <p class="text-light ">click on Get Weeks Remaining button to check result</p>            
+                </div>
+                <div>
+                    <button type="button" id="calculate">Get Weeks Remaining</button>
+                </div>
+                
+                <p id="display"></p>
+            </div>
+
+        </div>
+        
     </section>
     <script>
         let check = document.getElementById("calculate");
